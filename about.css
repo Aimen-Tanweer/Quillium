@@ -147,4 +147,7 @@ html,body{
     font-family: sans-serif;
     line-height: 20px;
 }
+.row-about{
+    border-radius: 100px;
+}
 

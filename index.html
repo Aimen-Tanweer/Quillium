@@ -11,7 +11,8 @@
 
 </head> 
 <body>
-    <section class="header">
+
+    <header class="header">
         <div class="uppernav">
                 <div class="logo"><a href="index.html"> Quillium </a>
                 </div>
@@ -28,16 +29,24 @@
             </div>
             </div>
 
-        <div class="navbar">
-            <ul>
-                <li><a href="index.html"> Home </a></li>
-                <li><a href="#new-arrivals" class="scroll-to" > New Arrivals  </a></li>
-                <li><a href="#top-seller" class="scroll-to" > Top Seller    </a></li>
-                <li><a href="#trending" class="scroll-to" > Trending    </a></li>
-                <li><a href="about.html" target="_blank"> About Us      </a></li>
-                <li><a href="#" id="requestBook" > Request a book</a></li>
+        <nav class="navbar">
+            <ul class="nav-menu">
+                <li class="nav-item"><a class="nav-link" href="index.html"> Home </a></li>
+                <li class="nav-item"><a class="nav-link" href="#new-arrivals" class="scroll-to" > New Arrivals  </a></li>
+                <li class="nav-item"><a class="nav-link" href="#top-seller" class="scroll-to" > Top Seller    </a></li>
+                <li class="nav-item"><a class="nav-link" href="#trending" class="scroll-to" > Trending    </a></li>
+                <li class="nav-item"><a class="nav-link" href="about.html" target="_blank"> About Us      </a></li>
+                <li class="nav-item"><a class="nav-link" href="#" id="requestBook" > Request a book</a></li>
               </ul>
-
+			  
+			  <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+ </nav>
+ </header>
+ 
               <div class="popup" id="requestPopup">
                 <div class="popup-content">
                     <span id="closePopup" class="close" onclick="closePopup()">&times;</span>
@@ -64,8 +73,8 @@
                         <button class="close">X</button>
                     </form>
               </div>
-            </div>
-        </section>
+           
+        
       
     <section class="banner">
         <div class="main-slider">
@@ -329,29 +338,28 @@
     </section>
 
     <section class="info">
-        <div class="column">
+        <div class="column-footer">
             <h4>Quillium</h4> <br/>
             <p>Jinnah Center ,Iqbal Avenue,<br/> Block A Jinnah Garden,<br/>Islamabad Capital Territory 44000</p>
         </div>
-        <div class="column">
+        <div class="column-footer">
             <h4>Company</h4><br>
-            <a href="about.html">About Us</a>
+            <a style="color:white;" href="about.html">About Us</a>
             
         </div>
-        <div class="column">
+        <div class="column-footer">
             <h4>Contact us </h4><br>
             <p>Complain and Feedback <br> queries@quillium.com</p><br>
-            <div class ="icons">
+            <center><div class ="icons">
             <a href="https://wa.me/whatsappphonenumber" target="_blank"><img src="images/whatsapp (1).png" alt="WhatsApp Button"></a>
-            <a href="https://www.instagram.com" target="_blank"><img src="images/instagram.png" alt="Instagram Button"></a>
-            </div>
+            <a href="https://www.instagram.com" target="_blank"><img src="images/instagram.png" alt="Instagram Button"></a> </center>
         </div>
-        
+                 
     </section>
 
     <section class="footer">
         <h6>copyright © 2023, Quillium, All Rights Reserved.</h6>
     </section>
-        
+      
 </body>
 </html>
